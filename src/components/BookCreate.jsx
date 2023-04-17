@@ -12,7 +12,7 @@ const BookCreate = ({ createBook }) => {
   };
 
   return (
-    <div className="fixed w-[100%] h-[15rem] bottom-0 bg-[#20212c] flex p-8 flex-col ">
+    <div className="fixed w-[100%] h-[15rem] bottom-0 bg-[#20212c] flex p-8 flex-col  ">
         <h3 className="text-[#fff] text-lg">Add a Book</h3>
       <form onSubmit={ontitleSubmit} className="flex flex-col w-56 py-2">
         <label className="text-[#828fa3]" >Title</label>{" "}

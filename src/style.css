@@ -4,4 +4,7 @@
 
 body {
   @apply bg-[#2b2c37];
+  max-width: 1440px;
+  @apply max-xl:m-auto
+  
 }
